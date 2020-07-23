@@ -9,9 +9,6 @@ logging:
     org.springframework.web.client.RestTemplate: INFO
 
 
-server:
-  servlet:
-    context-path: /covid
 
 
 spring:

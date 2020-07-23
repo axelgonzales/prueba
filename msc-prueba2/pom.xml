@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pe.unac.rrhh.core.coprueba2</groupId>
-    <artifactId>msc-prueba2</artifactId>
+    <artifactId>msc-prueba23</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>msc-prueba2</name>
+    <name>msc-prueba23</name>
     <description>msc-prueba2</description>
     <packaging>war</packaging>
 
