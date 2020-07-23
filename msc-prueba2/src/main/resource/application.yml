@@ -1,0 +1,46 @@
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    pe.realplaza.workflow: INFO
+    pe.realplaza.workflow.repository: DEBUG
+    org.springframework.jdbc.core.JdbcTemplate: INFO
+    org.springframework.jdbc.core.simple.SimpleJdbcCall: INFO
+    org.springframework.web.client.RestTemplate: INFO
+
+
+server:
+  servlet:
+    context-path: /covid
+
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: app.curriculum.v2
+    password: pokemonkur
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls: 
+            enable: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  jpa:
+    generate-ddl: true
+    show-sql: false
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update     
+  datasource:
+    platform: postgress
+    url: jdbc:postgresql://ec2-52-7-39-178.compute-1.amazonaws.com:5432/d8liufcbtid1r
+    username: zritftlggwskbz
+    password: 63310f848173226d91d482fa7c2cbe52bba84d690db37cedad091a7fba004977
+  jackson:
+    time-zone: America/Lima
+    
